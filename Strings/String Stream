@@ -1,0 +1,22 @@
+#include <iostream>
+#include <string>
+#include <sstream>
+
+using namespace std;
+
+void xtreme(string str) {
+    stringstream ss(str);
+    char ch;
+    int num;
+    while (ss >> num >> ch) {
+        cout << num << endl;
+    }
+    cout << num << endl;
+}
+
+int main() {
+    string str;
+    cin >> str; 
+    xtreme(str);
+    return 0;
+}
