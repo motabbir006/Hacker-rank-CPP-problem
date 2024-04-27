@@ -13,7 +13,7 @@ int main() {
             cout << "even" << endl;
         } else {
             cout << "odd" << endl;
-        }
+        } 
     }
 
     return 0;
